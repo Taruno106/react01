@@ -11,12 +11,14 @@ import ChangeFontsize from './StateDemo/ChangeFontSize';
 import BaiTapChonXe from './BaiTapChonXe/BaiTapChonXe';
 import RenderWithArray from './RenderWithArray/RenderWithArray';
 import HomePage from './Props/HomePage';
+import BTXemChiTiet from './Props/BTXemChiTiet/BTXemChiTiet';
+import CarShop from './Props/CarShop/CarShop';
 
 // JSX
 function App() {
   return (
     <div className="App">
-      {/* buổi 1 */}
+      {/* buổi 1 + 2 */}
       {/* <h1>Hello React</h1> */}
       {/* sử dụng Component */}
       {/* <FunctionComponent/>
@@ -26,17 +28,21 @@ function App() {
       {/* <DataBinding/> */}
       {/* <StyleComponent/> */}
 
-      {/* buổi 2 */}
+      {/* buổi 3 */}
       {/* <HandleEvent/> */}
       {/* <StateDemo/> */}
       {/* <ChangeFontsize/> */}
 
-      {/* buổi 3 */}
+      {/* buổi 4 */}
       {/* <BaiTapChonXe/> */}
       {/* <RenderWithArray/> */}
-      <HomePage/>
+      {/* <HomePage/> */}
 
 
+
+      {/* buổi 5 */}
+      {/* <BTXemChiTiet/> */}
+      <CarShop/>
 
       
     </div>
